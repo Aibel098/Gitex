@@ -7,8 +7,8 @@ const Profile = () => {
 
   // Simulating user data from an API
   const [user, setUser] = useState({
-    name: "Faraz Shah",
-    username: "@farazshah",
+    name: "Guest",
+    username: "@Guest",
     rating: 4.9,
     trips: 120,
     paymentMethods: 5,
