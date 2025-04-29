@@ -7,9 +7,9 @@ const EditProfile = () => {
 
   // Load saved user data from localStorage (if available)
   const [user, setUser] = useState({
-    name: localStorage.getItem("userName") || "Faraz Shah",
-    email: localStorage.getItem("userEmail") || "farazshah@example.com",
-    phone: localStorage.getItem("userPhone") || "+92 300 1234567",
+    name: localStorage.getItem("userName") || "Guest",
+    email: localStorage.getItem("userEmail") || "Guest@example.com",
+    phone: localStorage.getItem("userPhone") || "+48 300 1234567",
     profilePic: localStorage.getItem("userProfilePic") || "https://randomuser.me/api/portraits/men/1.jpg",
   });
 
